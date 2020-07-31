@@ -1,0 +1,123 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Container / Index */
+.container {
+  max-width: 960px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info {
+  margin-top: 125px;
+}
+
+.heading h1 {
+  color: #72005f;
+  font-size: 140px;
+}
+
+.heading span {
+  color: #baa193;
+  font-size: 50px;
+  display: block;
+  line-height: 1;
+}
+
+.image img {
+  width: 360px;
+}
+
+button.btn {
+  width: 300px;
+  background: #72005f;
+  font-size: 27px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  padding: 20px 30px;
+  margin-top: 25px;
+  border-radius: 20px;
+}
+
+/* Conselho */
+.logo {
+  margin: 55px;
+}
+
+.logo h1 {
+  color: #72005f;
+  font-size: 45px;
+}
+
+.logo span {
+  color: #baa193;
+  font-size: 25px;
+  display: block;
+  line-height: 1;
+}
+
+/* Conselho */
+.advice-info {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.advice {
+  max-width: 380px;
+  height: 380px;
+  background: #ece4e1;
+  padding: 35px;
+}
+
+.advice h1 {
+  color: #72005f;
+  font-size: 45px;
+}
+
+.advice cite {
+  display: block;
+  color: #baa193;
+  font-size: 30px;
+  text-align: center;
+  margin: 15px 45px;
+}
+
+.info-img {
+  width: 330px;
+  height: 380px;
+  background: #ece4e1;
+  border-radius: 15px;
+}
