@@ -140,20 +140,31 @@ button.btn {
 }
 
 .advice-btn {
+  max-width: 960px;
+  margin: 0 auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
-button.btn-conselho {
+.btn-conselho {
   width: 320px;
   background: #72005f;
   font-size: 20px;
   font-weight: bold;
   color: #fff;
+  text-align: center;
   border: none;
   padding: 20px 30px;
   margin-top: 25px;
   border-radius: 20px;
+}
+
+a.btn-voltar {
+  text-align: center;
+  width: 200px;
+  background: #fff;
+  color: #72005f;
+  border: 1px solid #72005f;
 }
 
 /* Responsive */
@@ -185,7 +196,8 @@ button.btn-conselho {
     font-size: 25px;
   }
 
-  button.btn-conselho {
+  .btn-conselho,
+  .btn-voltar {
     width: 220px;
     font-size: 15px;
   }
@@ -225,7 +237,8 @@ button.btn-conselho {
     text-align: center;
   }
 
-  button.btn-conselho {
+  .btn-conselho,
+  .btn-voltar {
     width: 220px;
     font-size: 15px;
   }
