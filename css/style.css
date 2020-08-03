@@ -71,6 +71,7 @@ button.btn {
 /* Conselho */
 .logo {
   margin: 55px;
+  width: 150px;
 }
 
 .logo h1 {
@@ -89,35 +90,52 @@ button.btn {
 .advice-info {
   max-width: 960px;
   margin: 0 auto;
-  padding: 0 70px;
   display: flex;
   justify-content: space-between;
+  background: #ece4e1;
   align-items: center;
+  border-radius: 15px;
 }
 
 .advice {
-  max-width: 380px;
+  display: flex;
+  max-width: 570px;
   height: 380px;
-  background: #ece4e1;
-  padding: 35px;
+  align-items: center;
 }
 
 .advice h1 {
   color: #72005f;
-  font-size: 45px;
+  font-size: 35px;
+  padding: 15px 25px;
 }
 
-.advice cite {
-  display: block;
-  color: #baa193;
-  font-size: 30px;
-  text-align: center;
-  margin: 15px 45px;
+.advice h1::before,
+.advice h1::after {
+  content: '"';
 }
 
-.info-img {
+.info-img img {
+  padding: 0;
+  margin: 0;
   width: 330px;
   height: 380px;
-  background: #ece4e1;
   border-radius: 15px;
+}
+
+.advice-btn {
+  display: flex;
+  justify-content: center;
+}
+
+button.btn-conselho {
+  width: 320px;
+  background: #72005f;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  padding: 20px 30px;
+  margin-top: 25px;
+  border-radius: 20px;
 }
