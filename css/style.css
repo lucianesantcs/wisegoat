@@ -52,6 +52,22 @@ a {
   line-height: 1;
 }
 
+.image {
+  animation: floating 3s infinite;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, 25px, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 .image img {
   width: 360px;
 }
@@ -138,4 +154,84 @@ button.btn-conselho {
   padding: 20px 30px;
   margin-top: 25px;
   border-radius: 20px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 790px) {
+  .heading h1 {
+    font-size: 80px;
+  }
+
+  .heading span {
+    font-size: 50px;
+  }
+
+  .image img {
+    width: 280px;
+  }
+
+  button.btn {
+    width: 270px;
+    font-size: 20px;
+  }
+
+  /* Advice */
+
+  .advice {
+    height: 290px;
+  }
+
+  .advice h1 {
+    font-size: 25px;
+  }
+
+  button.btn-conselho {
+    width: 220px;
+    font-size: 15px;
+  }
+  .info-img img {
+    width: 250px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 633px) {
+  .container {
+    max-width: 960px;
+    justify-content: center;
+  }
+
+  .info {
+    margin-top: 0;
+  }
+
+  .heading h1 {
+    font-size: 85px;
+  }
+
+  .heading span {
+    font-size: 55px;
+  }
+
+  .image,
+  .image img {
+    display: none;
+  }
+
+  /* Advice */
+
+  .advice h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  button.btn-conselho {
+    width: 220px;
+    font-size: 15px;
+  }
+
+  .info-img,
+  .info-img img {
+    display: none;
+  }
 }
