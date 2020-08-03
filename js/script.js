@@ -39,7 +39,7 @@ if (adviceElement || goatImg) {
       createAdvice(json.slip.advice);
     });
 
-  fetch('https://placegoat.com/200/200')
+  fetch('https://placegoat.com/330/380')
     .then((response) => response.blob())
     .then((blob) => {
       const imgURL = URL.createObjectURL(blob);
